@@ -20,9 +20,9 @@ public class LojaController {
 		p1.setId(20l);
 		p1.setNome("Máquina de Lavar Brastemp 12 litros");
 		p1.setCodigoBarras("HUKFEAHKIFBIHFUHF");
-		p1.setPreco(3799.99)
+		p1.setPreco(3799.99);
 		
-		
+	
 		listaDeProdutos.add(p1);
 		return "produtos";
 	}
