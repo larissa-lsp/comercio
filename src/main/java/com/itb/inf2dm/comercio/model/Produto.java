@@ -7,6 +7,7 @@ public class Produto {
 	private String codigoBarras;
 	private double preco;
 	
+	
 	// public: Modificador de acesso livre para todas as classes.
 	// private: Modificador de acesso restrito apenas para membros da propria classe.
 	//			Entenda-se por "membros" (atributos e/ou métodos)
