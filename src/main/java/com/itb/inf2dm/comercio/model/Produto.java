@@ -6,6 +6,7 @@ public class Produto {
 	private String nome;
 	private String codigoBarras;
 	private double preco;
+	private boolean codStatus;
 	
 	
 	// public: Modificador de acesso livre para todas as classes.
@@ -51,5 +52,11 @@ public class Produto {
 	public double getPreco() {
 		return preco;
 	}
-
+	public boolean getCodStatus() {
+		return codStatus;
+	}
+	public void setCodStatus(boolean codStatus) {
+		this.codStatus = codStatus;
+	}
+	
 }
