@@ -21,7 +21,7 @@ public class LojaController {
 		
 		Produto p1 = new Produto();
 		p1.setId(20l);
-		p1.setDescricao("maquinaaaaaaaaa");
+		p1.setDescricao("Máquina de Lavar Roupas");
 		p1.setNome("Máquina de Lavar Brastemp 12 litros");
 		p1.setCodigoBarras("HUKFEAHKIFBIHFUHF");
 		p1.setPreco(3799.99);
@@ -29,7 +29,7 @@ public class LojaController {
 		
 		Produto p2 = new Produto();
 		p2.setId(30l);
-		p2.setDescricao("");
+		p2.setDescricao("Geladeira 400 litros Electrolux");
 		p2.setNome("Refrigerador Electrolux 400l");
 		p2.setCodigoBarras("JHVASJHJGHCVJKF");
 		p2.setPreco(4300.00);

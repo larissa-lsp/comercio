@@ -35,10 +35,11 @@
                                 <td th:text="${produto.descricao}"></td>
                                 <td th:text="${produto.nome}"></td>
                                 <td th:text="${produto.codigoBarras}"></td>
-                                <td th:text="${produto.preco}"></td>
+                                <td th:text="${#numbers.formatCurrency(produto.preco)}"></td>
                                 <td th:text="${produto.codStatus} ? 'Ativo' : 'Inativo'"></td>
+                                <td>
                                     <a href="#" class="btn btn-primary">
-                                    <i class="fas fa-edit ml-2"></i>    
+                                        <i class="fas fa-edit ml-2"></i>    
                                     </a>
                                 </td>
                             </tr>
